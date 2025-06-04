@@ -28,7 +28,7 @@ export const ContactSection = () => {
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Get In <span className="text-primary">Touch</span>
                 </h2>
 
-                <p className="text-center text-muted-foreground mb-12  max-w-2xl mx-auto">
+                <p className="text-center text-muted-foreground mb-12  max-w-2xl mx-auto font-semibold">
                     Have a project in mind or want to collaborate? Feel free
                     to reach out. I am always opened to discussing new opportunities.
                 </p>
@@ -65,8 +65,8 @@ export const ContactSection = () => {
                                 <div>
                                     <h4 className="font-medium">Location</h4>
                                     <a 
-                                        href="tel:+2349061759083" className="text-muted-foreground hover:text-primary transition-colors">
-                                        Vancouver, BC, Canada
+                                     className="text-muted-foreground hover:text-primary transition-colors">
+                                        Lagos, Nigeria
                                     </a>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ export const ContactSection = () => {
                                 id="name" 
                                 name="name" 
                                 required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary"
-                                placeholder="Temi Abijo..."
+                                placeholder="Your Name..."
                                 />
                             </div>
 
@@ -125,7 +125,7 @@ export const ContactSection = () => {
                                 id="name" 
                                 name="name" 
                                 required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary"
-                                placeholder="abijo356@gmail.com"
+                                placeholder="johnDoe@gmail.com"
                                 />
                             </div>
 

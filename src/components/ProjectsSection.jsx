@@ -3,32 +3,62 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
-        description: "A beautiful landing page app using React and Tailwind.",
-        image: "/projects/reisize_img.png",
-        tags: ["React", "TailwindCSS", "Supbase"],
-        demoUrl: "#",
-        githubUrl: "#",
+        title: "Interior decoration Landing Page",
+        description: "Bringing your dream to life with one-one design, hand picked products tailored to your style, space and budget.",
+        image: "/projects/Interior-design_img.png",
+        tags: ["React", "TailwindCSS", "Framer-motion"],
+        demoUrl: "https://decoration-kappa.vercel.app/",
+        githubUrl: "https://github.com/Temijoe20/decoration",
     },
     {
         id: 2,
-        title: "Orbital Analytics Dashboard",
+        title: "Cryptocurrency Website Design",
         description: 
-            "Interactive analytics dashboard with data visualization and filtering capabilities.",
-        image: "/projects/project2.png",
-        tags: ["TypeScript", "D3.js", "Next.js"],
-        demoUrl: "#",
-        githubUrl: "#",
+            "Trusted by 10M+ wallets. $30B+ in crypto transactions. Fast, secure, and easy to use.",
+        image: "/projects/Crypto_img.png",
+        tags: ["React", "TailwindCSS", "axios"],
+        demoUrl: "https://landing-page-design-blond.vercel.app/",
+        githubUrl: "https://github.com/Temijoe20/landing-page-design",
     },
     {
         id: 3,
-        title: "E-commerce Platform",
+        title: "Journey Worker Platform",
         description: 
-        "Full-featured e-commerce platform with user authentication and payment processing.",
-        image: "/projects/project3.png",
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
-        githubUrl: "#",
+        "Journeyworker is an on-demand platform that connects you with trusted building repair artisans nearby — fast, secure, and convenient.",
+        image: "/projects/Journey-man_img.png",
+        tags: ["React", "TailwindCSS", "HTML"],
+        demoUrl: "https://journeyworker.vercel.app/",
+        githubUrl: "https://github.com/Temijoe20/journeyworker",
+    },
+    {
+        id: 4,
+        title: "Fruit Selling Platform",
+        description: 
+        "Full-featured website for ordering fresh healthy fruits, healthy and yummy food for fresh morining breakfast. ",
+        image: "/projects/Fruit-store_img.png",
+        tags: ["React", "TailwindCSS", "Framer-motion"],
+        demoUrl: "https://fruits-five-self.vercel.app/",
+        githubUrl: "https://github.com/Temijoe20/fruits",
+    },
+    {
+        id: 5,
+        title: "E-learning tutorial Platform",
+        description: 
+        "Full-featured e-learning website for finding your perfect tutor for 1-on-1 lessons that is completely free and private .",
+        image: "/projects/tutor-design_img.png",
+        tags: ["React", "TailwindCSS", "Framer-motion"],
+        demoUrl: "https://learn-site-seven.vercel.app/",
+        githubUrl: "https://github.com/Temijoe20/learn-Site",
+    },
+    {
+        id: 6,
+        title: "Movie-app Platform",
+        description: 
+        "Getting a the latest blockbuster movies done by well-known and professional actors for an exclusive and all time entertainment.",
+        image: "/projects/movie-design_img.png",
+        tags: ["React", "API", "TailwindCSS"],
+        demoUrl: "https://temia-tutor.vercel.app/",
+        githubUrl: "https://github.com/Temijoe20/Temia-tutor",
     },
 ]
 export const ProjectsSection = () => {
@@ -40,7 +70,7 @@ export const ProjectsSection = () => {
                     Featured <span className="text-primary">Project</span>
                     </h2>
 
-                    <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+                    <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto font-semibold">
                         Here are some of my recent projects. Each project was carefully 
                         crafted with attention to detail, performance, and user experience.
                     </p>
