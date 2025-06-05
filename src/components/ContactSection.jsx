@@ -125,7 +125,7 @@ export const ContactSection = () => {
                                 id="name" 
                                 name="name" 
                                 required className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary"
-                                placeholder="johnDoe@gmail.com"
+                                placeholder="write your email"
                                 />
                             </div>
 
