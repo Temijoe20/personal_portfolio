@@ -54,7 +54,7 @@ const projects = [
         id: 6,
         title: "Movie-app Platform",
         description: 
-        "Getting a the latest blockbuster movies done by well-known and professional actors for an exclusive and all time entertainment.",
+        "Getting the latest blockbuster movies done by well-known and professional actors for an exclusive and all time entertainment.",
         image: "/projects/movie-design_img.png",
         tags: ["React", "API", "TailwindCSS"],
         demoUrl: "https://temia-tutor.vercel.app/",
